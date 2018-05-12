@@ -21,12 +21,13 @@ var Lorem;
     Lorem.WORDS = [
 
             "Auschwitz, the meaning of pain. The way that I want you to die.",
-"Slow death, immense decay, showers that cleanse you of your life.",
-"Human mice, for the angel of death, monarch to the kingdom of the dead.",
-"Sadistic, surgeon of demise, sadist of the noblest blood.",
-"Surgery, with no anesthesia, feel the knife pierce you intensely.",
-"An unforeseen future nestled somewhere in time. Unsuspecting victims no warnings, no signs.",
-"Judgment day the second coming arrives. Before you see the light you must die.",
+            "Slow death, immense decay, showers that cleanse you of your life.",
+            "Human mice, for the angel of death, monarch to the kingdom of the dead.",
+            "Sadistic, surgeon of demise, sadist of the noblest blood.",
+            "Surgery, with no anesthesia, feel the knife pierce you intensely.",
+            "An unforeseen future nestled somewhere in time. Unsuspecting victims no warnings, no signs.",
+            "Judgment day the second coming arrives. Before you see the light you must die.",
+            "Trapped in purgatory, a lifeless object, alive.",
 
 
     ];

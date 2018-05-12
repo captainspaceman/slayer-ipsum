@@ -19,23 +19,16 @@ var Lorem;
     };
     //Words to create lorem ipsum text.
     Lorem.WORDS = [
-        "Your wide awake nightmare",
-        "Your time slips away",
-        "Your life's worth",
-        "Your life is yours to give",
-        "Your flesh is all I need",
-        "Your blood running cold",
-        "You've just one life to live",
-        "You'll never be the same",
-        "You'll never be the same",
-        "You'd be forgiven endlessly",
-        "You will be saved at any cost",
-        "You will be an accessory",
-        "You think you'll see the pearly gates",
-        "You think the world will end today",
-        "You think by killing me tonight",
-        "You spend your life just kissing ass",
-        "You run",
+
+            "Auschwitz, the meaning of pain. The way that I want you to die.",
+"Slow death, immense decay, showers that cleanse you of your life.",
+"Human mice, for the angel of death, monarch to the kingdom of the dead.",
+"Sadistic, surgeon of demise, sadist of the noblest blood.",
+"Surgery, with no anesthesia, feel the knife pierce you intensely.",
+"An unforeseen future nestled somewhere in time. Unsuspecting victims no warnings, no signs.",
+"Judgment day the second coming arrives. Before you see the light you must die.",
+
+
     ];
     //random integer method.
     Lorem.prototype.randomInt = function (min, max) {

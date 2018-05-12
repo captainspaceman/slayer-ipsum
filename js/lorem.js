@@ -20,14 +20,22 @@ var Lorem;
     //Words to create lorem ipsum text.
     Lorem.WORDS = [
 
-            "Auschwitz, the meaning of pain. The way that I want you to die.",
-            "Slow death, immense decay, showers that cleanse you of your life.",
-            "Human mice, for the angel of death, monarch to the kingdom of the dead.",
-            "Sadistic, surgeon of demise, sadist of the noblest blood.",
-            "Surgery, with no anesthesia, feel the knife pierce you intensely.",
-            "An unforeseen future nestled somewhere in time. Unsuspecting victims no warnings, no signs.",
-            "Judgment day the second coming arrives. Before you see the light you must die.",
-            "Trapped in purgatory, a lifeless object, alive.",
+            "Auschwitz, the meaning of pain.", 
+            "The way that I want you to die.",
+            "Slow death, immense decay.",
+            "Showers that cleanse you of your life.",
+            "Human mice, for the angel of death.",
+            "Monarch to the kingdom of the dead.",
+            "Sadistic, surgeon of demise.",
+            "Sadist of the noblest blood.",
+            "Surgery, with no anesthesia.", 
+            "Feel the knife pierce you intensely.",
+            "An unforeseen future nestled somewhere in time.", 
+            "Unsuspecting victims.",
+            "Judgment day the second coming arrives." ,
+            "Before you see the light you must die.",
+            "Trapped in purgatory",
+            "A lifeless object alive.",
 
 
     ];
@@ -42,7 +50,7 @@ var Lorem;
             case Lorem.TYPE.PARAGRAPH:
                 var paragraphs = new Array;
                 for (var i = 0; i < count; i++) {
-                    var paragraphLength = this.randomInt(10, 20);
+                    var paragraphLength = this.randomInt(20, 20);
                     var paragraph = this.createText(paragraphLength, Lorem.TYPE.SENTENCE);
                     paragraphs.push('<p>'+paragraph+'</p>');
                 }
@@ -51,7 +59,7 @@ var Lorem;
             case Lorem.TYPE.SENTENCE:
                 var sentences = new Array;
                 for (var i = 0; i < count; i++) {
-                    var sentenceLength = this.randomInt(2, 2);
+                    var sentenceLength = this.randomInt(1, 1);
                     var words = this.createText(sentenceLength, Lorem.TYPE.WORD).split(' ');
                     words[0] = words[0].substr(0, 1).toUpperCase() + words[0].substr(1);
                     var sentence = words.join(' ');

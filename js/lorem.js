@@ -15,7 +15,7 @@ var Lorem;
     Lorem.TYPE = {
         PARAGRAPH: 1,
         SENTENCE: 2,
-        WORD: 3
+        WORD: 3 
     };
     //Words to create lorem ipsum text.
     Lorem.WORDS = [

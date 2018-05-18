@@ -24,17 +24,19 @@ var config = {
     location.reload();
   });
 
-  $("#facebook-share").click(function(){
-    console.log("Facebook share button clicked");
-  })
+  //social share buttons
 
-  $("#twitter-share").click(function(){
-    console.log("Twitter share button clicked");
-  })
+          $("#facebook-share").click(function(){
+            console.log("Facebook share button clicked");
+          })
 
-  $("#email-share").click(function(){
-    console.log("Email share button clicked");
-  })
+          $("#twitter-share").click(function(){
+            console.log("Twitter share button clicked");
+          })
+
+          $("#email-share").click(function(){
+            console.log("Email share button clicked");
+          })
 
 
   })

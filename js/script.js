@@ -14,6 +14,9 @@ var config = {
   //paragraphs they want, and then clicking the "generate" button
   //the array data will be returned in random order. 
 
+  $(document).ready(function(){
+
+
   var chooseParagraph = document.getElementById("chooseParagraph");
   var submitButton = document.getElementById("submitButton");
   
@@ -33,12 +36,7 @@ var config = {
     console.log("Email share button clicked");
   })
 
-  var lyrics = [
-    "Your wide awake nightmare",
-    "Your time slips away",
-    "Your life's worth",
-    "Your life is yours to give",
-    "Your flesh is all I need",
-  ];
+
+  })
 
   

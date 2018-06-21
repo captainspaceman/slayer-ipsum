@@ -1,4 +1,5 @@
 // Initialize Firebase
+
 var config = {
     apiKey: "AIzaSyD4Gm3vjF7vtS6jAg0V2uUHaTew1suF2NI",
     authDomain: "slayer-ipsum.firebaseapp.com",

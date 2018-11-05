@@ -8,7 +8,7 @@ This is an idea I had several years ago. No one has claimed it yet so I assume t
 
 [I used this Lorem Ipsum generator](https://github.com/f/loremjs)
 
-[Here is a link](https://slayeripsum) to the website with drastically pared down functionality. Crawl, walk run you guys. 
+[Here is a link](https://slayeripsum.com) to the website with drastically pared down functionality. Crawl, walk run you guys. 
 
 **Overview:** A user will arrive at the page, choose the number of placeholder paragraphs they want, and Slayer Ipsum will return Slayer lyrics in a random order in paragraph format. 
 

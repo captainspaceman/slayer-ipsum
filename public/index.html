@@ -35,23 +35,29 @@
 
                             </form> -->
 
-                            <button id="submitButton">Get Slayer Lyrics
-
-                            </button>  
-      <!-- temporarily comments out the share buttons 11042018-->                          
-                                <!-- <div id="share-buttons">
-                                        <h1>Share:</h1>
+                            <button id="submitButton">Get Slayer Lyrics</button>  
+                            
+                                <div id="copy-to-clipboard">
                                         
-                                            <img id="facebook-share"  class="inline" src="img/fb.png">
-                                            <img id="twitter-share"  class="inline" src="img/tw.png">
-                                            <img id="email-share"  class="inline" src="img/email.png">
-                                </div> -->
-            
+                                <button class="button" id="copy-button" data-clipboard-target="#slayer-ipsum-content">Copy to Clipboard</button>  
+ 
+                                </div>
+          
                 </div>
 
-                            <div id="slayer-ipsum-content" data-lorem="5p">
+                            <div class="text" id="slayer-ipsum-content" data-lorem="5p">
 
-                </div>
+                            </div>
+
+{
+<!-- temporarily comments out the share buttons 11042018-->                          
+            <!-- <div id="share-buttons">
+                    <h1>Share:</h1>
+                    
+                        <img id="facebook-share"  class="inline" src="img/fb.png">
+                        <img id="twitter-share"  class="inline" src="img/tw.png">
+                        <img id="email-share"  class="inline" src="img/email.png">
+        </div> -->
 
     <footer>
 
@@ -66,5 +72,6 @@
 <!--link to javascript file-->   
 <script src="js/script.js"></script> 
 <script src="js/lorem.js"></script>
+<script src="js/clipboard.js"></script>
 </body>
 </html>

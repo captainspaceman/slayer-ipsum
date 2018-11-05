@@ -59,6 +59,19 @@ p {
     border-radius: 5px;
 }
 
+#copy-button {
+    width: 250px;
+    height: 60px;
+    margin-top:10px;
+    background-color: #343434;
+    color:#ffffff;
+    font-family: OpenSans, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    border:0px;
+    border-radius: 5px;
+}
+
 input {
     width:230px;
     height:56px;

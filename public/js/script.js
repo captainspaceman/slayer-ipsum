@@ -17,11 +17,9 @@ var config = {
 
   $(document).ready(function(){
 
-
-  var chooseParagraph = document.getElementById("chooseParagraph");
   var submitButton = document.getElementById("submitButton");
-  
-  $("#submitButton").click(function(){
+
+  $('#submitButton').click(function(){
     location.reload();
   });
 
@@ -38,7 +36,6 @@ var config = {
           $("#email-share").click(function(){
             console.log("Email share button clicked");
           })
-
 
   })
 
